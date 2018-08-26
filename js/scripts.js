@@ -26,7 +26,7 @@ Player.prototype.rollone = function() {
 Player.prototype.hold = function () {
   this.totalscore += this.tempscore;
   this.tempscore = 0;
-  alert(this.playerName + ", your turn is over, pass the mouse!");
+  alert(this.playerName + " your turn is over, pass the mouse!");
 }
 
 Player.prototype.winnerCheck = function () {
